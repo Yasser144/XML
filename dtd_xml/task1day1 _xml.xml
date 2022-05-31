@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\win10\Desktop\xml task\dtd\task1 day 2.xsd">
+	<grandfather>g
+		<father job="Doctor">f
+			<mother>m </mother>
+			<son age="22 " sport="tennis"> </son>
+			<douter job="Doctor" age="22"> </douter>
+		</father>
+		<auncle>u </auncle>
+		<auncle>u2</auncle>
+		<aunt son="5">a </aunt>
+	</grandfather>
+</family>

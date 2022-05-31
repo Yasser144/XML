@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT family (#PCDATA | grandfather )*>
+<!ELEMENT grandfather (#PCDATA | father | auncle | aunt)*>
+
+
+<!ELEMENT father (#PCDATA | mother | son | douter)*>
+<!ATTLIST father job  (Accountant|doctor|Engineer) "Engineer">
+<!ELEMENT mother (#PCDATA)>
+
+<!ELEMENT  son (#PCDATA )>
+
+<!ATTLIST son sport (tennis|football) "football">
+<!ATTLIST son  age CDATA #REQUIRED>
+
+<!ELEMENT douter (#PCDATA )>
+<!ATTLIST douter job  (Accountant|doctor|Engineer) "Engineer">
+<!ATTLIST douter  age CDATA #REQUIRED>
+
+
+<!ELEMENT auncle (#PCDATA)>
+
+
+
+
+<!ELEMENT aunt (#PCDATA|son)*>
+
+<!ATTLIST aunt  son CDATA "5">
+
+
+
+
+
+
+
+
